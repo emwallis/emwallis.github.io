@@ -16,6 +16,13 @@
         <input type="text" name="email"><br>
         Phone: <br>
         <input type="text" name="phone"><br>
+    <form>
+      <ul>
+          <li><input type="text" name="info" value="Phone:"/></li>
+          <li><input type="text" name="info" value="Email:"/></li>
+          <li><input type="text" name="info" value="Username:"/></li>
+          <li><input type="password" name="info" value="Password"/></li>
+       </ul>
      </form>
      <p>My shoes are SO old...</p>
      <form>
@@ -47,10 +54,17 @@
     </form>
     <p>Size<br />
         (Sizes reflect standard men's sizing):</p>
-    <form>
-         <input type="text" name="size" value="5-13">
-     </form>
-     <form>
+    <select name="sizes">
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+     </select>
          <input type="submit" name="submit" value="Pimp My Shoes!">
          <input type="submit" name="reset" value="Reset">
      </form>
