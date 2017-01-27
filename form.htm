@@ -1,38 +1,39 @@
 <html>
  <head>
     <title>Pimp My Shoes</title>
+    <style type="text/css">
+        div {color:grey; background-color:whitesmoke;>
+    </style>
  </head>
  <body>
-    <h1>"Pimp My Shoes" Conest Entry Form</h1>
+    <h1 style='color: darkgray'>"Pimp My Shoes" Conest Entry Form</h1>
     <br />
+        <div>
     <p>Want to trade in your old sneakers for a custom pair of Forcefields? <br />
-       Make a case for why your shoes have got to go and you may be on of ten lucky winners.</p>
+       Make a case for why your shoes have got to go and you may be one of ten lucky winners.</p>
+        </div>
     <br />
+        <div>
     <p>Contest Entry Information</p>
+        </div>
     <form>
+        <div>
         Name: <br>
         <input type="text" name="name"><br>
         Email: <br>
         <input type="text" name="email"><br>
         Phone: <br>
         <input type="text" name="phone"><br>
-    <form>
-      <ul>
-          <li><input type="text" name="info" value=""/>Phone:</li>
-          <li><input type="text" name="info" value=":"/>Email:</li>
-          <li><input type="text" name="info" value=""/>Username:</li>
-          <li><input type="password" name="info" value=""/>Password:</li>
-       </ul>
-     </form>
-     <p>My shoes are SO old...</p>
-     <form>
+        </div>
+        <div>
+    <p>My shoes are SO old...</p>
         <textarea name="name">No more than 300 characters long</textarea>
-     </form>
-     <h3>Design Your Custom forcefields:</h3>
+
+    <h3>Design Your Custom forcefields:</h3>
      <p>Custom shoe design</p>
      <p>Color (choose one):</p>
-     <form>
-         <input type="radio" name="color" value="Red">
+    
+        <input type="radio" name="color" value="Red">
          Red<br>
          <input type="radio" name="color" value="Blue">
          Blue<br>
@@ -40,9 +41,10 @@
          Black<br>
          <input type="radio" name="color" value="Silver">
          Silver<br>
-     </form>
+        </div>
+        <div>
     <p>Features (choose as many as you want):</p>
-    <form>
+    
          <input type="radio" name="feature" value="Sparkley Laces">
          Sparkley laces<br>
          <input type="radio" name="feature" value="Metallic Logo">
@@ -51,9 +53,12 @@
          Light-up Heels<br>
          <input type="radio" name="feature" value="MP3-enabled">
          MP3-enabled<br>
-    </form>
+        </div>
+        <div>
     <p>Size<br />
         (Sizes reflect standard men's sizing):</p>
+        </div>
+        <div>
     <select name="sizes">
         <option value="5">5</option>
         <option value="6">6</option>
@@ -65,8 +70,10 @@
         <option value="12">12</option>
         <option value="13">13</option>
      </select>
+        </div>
          <input type="submit" name="submit" value="Pimp My Shoes!">
          <input type="submit" name="reset" value="Reset">
+
      </form>
  </body>
 </html>
